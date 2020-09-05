@@ -74,7 +74,7 @@ body a{
 
 .projects-break{
     margin-bottom: 200px;
-
+    width: 100%;
 }
 
 
@@ -98,6 +98,7 @@ body a{
     color:white;
 }
 .projects-break{
+    width: 100%;
     color: white;
 }
 
@@ -355,7 +356,7 @@ form{
 }
 
 .form-control{
-    width: 600px;
+    width: 65%;
     background: transparent;
     border: none;
     outline: none;
