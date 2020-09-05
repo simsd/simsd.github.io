@@ -1,0 +1,508 @@
+
+*{
+        scroll-behavior: smooth;
+}
+
+
+html, body{
+    background: url(cool-background\ \(1\).png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.email{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-break{
+    margin-top: 250px;
+    color: white;
+    ;
+}
+
+.contact-section{
+    margin-bottom: 100px;
+}
+
+.contact{
+    margin-top: 80px;
+    font-size: 2em;
+    text-align: center;
+    color:white;
+}
+
+.contact-p{
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 75%;
+    line-height: 1.6;;
+}
+
+.contact h1{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body a{
+    color: white;
+    text-decoration: none;
+}
+
+.name-display{
+    margin-left: 25px;
+}
+
+.name-display h1{
+    
+    color: #f5f5f5;
+    font-size: 50px;
+    
+}
+
+
+.projects-break{
+    margin-bottom: 200px;
+
+}
+
+
+
+/*Projects*/
+
+.project-p{
+    margin-top: -8px;
+    font-size: 24px;
+}
+
+.project-section{
+    margin-top: -120px;
+}
+
+.projects-title{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-align: center;
+    color:white;
+}
+.projects-break{
+    color: white;
+}
+
+.projects{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Message stuff*/
+
+.message-container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+
+/*Cards*/
+
+.card{
+
+
+    margin: 4vw;
+   
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: 40px 125px 200px 50px;
+    grid-template-areas: "title" "image" "text" "stats";
+
+    border-radius: 18px;
+    background: #C7C4C3;
+    -moz-box-shadow: 5px 15px 5px 0px #000;
+    -webkit-box-shadow: 5px 15px 5px 0px #000;
+    box-shadow: 5px 15px 5px 0px #000;
+    text-align: center;
+    overflow: hidden;
+    transition-duration: 700ms;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+.card-title{
+    grid-area: title;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.projects a{
+    color: black;
+    text-decoration: none;
+}
+
+.card-image{
+    grid-area: image;
+    margin: 0;
+}
+
+.card-text{
+    text-align: left;
+    font-size: 14px;
+    padding-left: 5px;
+    grid-area: text;
+}
+
+.card-stats{
+    grid-area: stats;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    transform: scale(1.1);
+
+}
+
+
+/*My Skills Section*/
+
+.skills{
+    margin-bottom: 200px;
+}
+
+.skills h1{
+    color: white;
+    margin-left: 25px;
+}
+
+.icon-logos{
+    width: 80px;
+    height: 80px;
+}
+
+.logos ul{
+    list-style: none;
+}
+
+.logos ul li{
+    padding: 3vmin;
+    display: inline;
+}
+
+.logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+}
+
+nav ul li a{
+    font-size: 23px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover{
+    color: #24bddb;
+    font-size: 30px;
+}
+
+.intro h1{
+    color: white;
+    margin-left: 25px;
+}
+
+/*Social Media Websites*/
+
+.social-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-list ul{
+    list-style-type: none;
+}
+
+.social-list ul li{
+    padding: 3vmin;
+    display: inline;
+}
+
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.bio{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 75%;
+    line-height: 1.6;;
+}
+
+@media only screen and (min-width: 30em){
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul li{
+        border-bottom: none;
+    }
+    
+    .social-list ul li{
+        padding: 3vmax;
+        display: inline;
+    }
+}
+
+.contact-form{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+form .submit:hover{
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+
+
+/*All of my cards*/
+.nav-card .card-stats{
+    background : rgb(255, 7, 110);
+}
+
+.nav-card .card-image{
+    background: url("./projectpics/GPS.png");
+    background-size: cover;
+}
+
+.nav-card .card-title{
+    background : rgb(255, 7, 110);
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.game-card .card-stats{
+    background : #12d729;
+}
+
+.game-card .card-image{
+    background: url("./projectpics/game.png");
+    background-size: cover;
+}
+
+.game-card .card-title{
+    background : #12d729;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.folder-card .card-stats{
+    background : #fa7600;
+}
+
+.folder-card h1{
+    font-size: 28px;
+}
+
+.folder-card .card-image{
+    background: url("./projectpics/folders.jpg");
+    background-size: cover;
+}
+
+.folder-card .card-title{
+    background : #fa7600;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.terminal-card .card-stats{
+    background : #a933f5;
+}
+
+.terminal-card h1{
+    font-size: 28px;
+}
+
+.terminal-card .card-image{
+    background: url("./projectpics/test.png");
+    background-size: cover;
+}
+
+.terminal-card .card-title{
+    background : #a933f5;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.terminal-card h1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.git-card .card-stats{
+    background : #ff0f00;
+}
+
+.git-card .card-image{
+    background: url("./projectpics/git4.png");
+    background-size: cover;
+}
+
+.git-card .card-title{
+    background : #ff0f00;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.iot-card .card-stats{
+    background : #00d8ff;
+}
+
+.iot-card .card-image{
+    background: url("./projectpics/try.png");
+    background-size: cover;
+}
+
+.iot-card .card-title{
+    background : #00d8ff;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.iot-card h1{
+    padding-top: 10px;
+    font-size: 24px;
+}
