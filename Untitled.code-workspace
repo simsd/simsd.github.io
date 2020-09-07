@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/PHPMailer Tutorial/phpmailer"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GitHub"
+	}
+}
